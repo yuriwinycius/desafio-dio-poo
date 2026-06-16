@@ -4,8 +4,7 @@ public class Curso extends Conteudo{
 
     private int cargaHoraria;
 
-    public Curso(String titulo, String descricao, int cargaHoraria) {
-        this.cargaHoraria = cargaHoraria;
+    public Curso() {
     }
 
     public int getCargaHoraria() {
